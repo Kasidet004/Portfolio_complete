@@ -1,0 +1,91 @@
+/* เปลี่ยนสีตัวอักษรของหัวข้อใหญ่ (h1) และหัวข้อย่อย (h2, h3) */
+h1 {
+    color: #ff4500; /* สีส้มแดง */
+    font-size: 2.5em; /* ขนาดตัวอักษรใหญ่ */
+    text-align: center;
+ }
+ 
+ h2 {
+    color: #008080; /* สีเขียวอมฟ้า */
+    font-size: 2em; /* ขนาดรองจาก h1 */
+    margin-bottom: 10px;
+ }
+ 
+ h3 {
+    color: #4682b4; /* สีน้ำเงินฟ้า */
+    font-size: 1.5em;
+ }
+ 
+ /* กำหนดรูปแบบตัวอักษร */
+ body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6; /* ระยะห่างระหว่างบรรทัด */
+    background-color: #fadeb1; /* สีพื้นหลังอ่อนครีม */
+    background-image: url('images/croissant-pattern.jpg'); /* รูปภาพลายครัวซองต์ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 20px;
+    padding: 20px;
+    color: #5a3c19; /* สีข้อความเข้ากับธีม */
+ }
+ 
+ /* กำหนดขนาดตัวอักษรลิงก์และสีเมื่อ Hover */
+ a {
+    color: #007bff; /* สีน้ำเงิน */
+    text-decoration: none;
+    font-weight: bold;
+ }
+ 
+ a:hover {
+    color: #ff6347; /* สีแดงอ่อนเมื่อโฮเวอร์ */
+    text-decoration: underline;
+ }
+ 
+ /* กำหนดระยะห่างของตัวอักษร */
+ ul, ol {
+    margin-left: 20px; /* ระยะห่างระหว่างลิสต์ */
+    padding-left: 20px;
+ }
+ 
+ /* กำหนดสีพื้นหลัง */
+ table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff; /* พื้นหลังสีขาว */
+    margin-top: 20px;
+ }
+ 
+ table th, table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+ }
+ 
+ table th {
+    background-color: #4caf50; /* พื้นหลังหัวข้อสีเขียว */
+    color: white;
+ }
+ 
+ table tr:nth-child(even) {
+    background-color: #f2f2f2;
+ }
+ 
+ /* กำหนดสีของลิงก์ในพารากราฟ */
+ p a {
+    color: #6a5acd; /* สีม่วง */
+ }
+ 
+ p a:hover {
+    color: #ff4500; /* สีส้มแดงเมื่อโฮเวอร์ */
+ }
+ 
+ body {
+    background-image: url('images/croissant-pattern.jpg'); /* รูปภาพลายครัวซองต์ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #5a3c19; /* สีข้อความเข้ากับธีม */
+ }
+ 
+ 

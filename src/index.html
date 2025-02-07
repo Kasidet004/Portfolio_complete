@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Kasidet Sriwimol</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+
+    <!-- Navbar -->
+<nav class="bg-white text-blue-600 p-4 flex justify-between items-center shadow-md">
+    <h1 class="text-xl font-bold bg-gradient-to-r from-blue-500 to-blue-300 text-transparent bg-clip-text">
+        PortFolio
+    </h1>
+    <ul class="flex space-x-6">
+        <li><a href="#home" class="text-blue-500 hover:text-blue-700 transition duration-300">Home</a></li>
+        <li><a href="#about" class="text-blue-500 hover:text-blue-700 transition duration-300">About Me</a></li>
+        <li><a href="#portfolio" class="text-blue-500 hover:text-blue-700 transition duration-300">Portfolio</a></li>
+        <li><a href="#contact" class="text-blue-500 hover:text-blue-700 transition duration-300">Contact</a></li>
+    </ul>
+</nav>
+
+
+    
+    <!-- Hero Section -->
+    <section class="flex items-center justify-between h-screen bg-gradient-to-r from-blue-500 via-purple-500 to-blue-400 text-white px-16">
+        <!-- ข้อความด้านซ้าย -->
+        <div class="max-w-lg">
+            <h1 class="text-5xl font-bold">Hello I'm Kasidet Sriwimol</h1>
+            <p class="text-lg mt-4">Graphic Designer | Web Developer</p>
+            <p class="mt-2 italic text-lg">"เป็นอิสระ แกร่งกล้า ปรับตัวเก่ง"</p>
+            <a href="#about" class="mt-6 px-6 py-3 bg-white text-blue-500 rounded-full shadow-md inline-block hover:bg-blue-200 transition duration-300">ดูเพิ่มเติม</a>
+        </div>
+    
+        <!-- พื้นที่ใส่รูปด้านขวา -->
+        <div class="w-1/2 flex justify-center relative">
+            <div class="absolute w-96 h-96 bg-gradient-to-tr from-white/50 to-transparent rounded-full blur-3xl"></div>
+            <img src="/img/Me.jpg" alt="Profile Picture" class="w-80 h-80 object-cover rounded-full shadow-lg relative">
+        </div>
+    </section>
+    
+
+    
+    <!-- About Me -->
+<section id="about" class="py-20 px-8 text-center">
+    <h2 class="text-4xl font-bold">เกี่ยวกับฉัน</h2>
+    <p class="mt-4 text-lg max-w-2xl mx-auto">
+        ชื่อ: นายกษิดิ์เดช นามสกุล ศรีวิมล<br>
+        เกิดวัน: ศุกร์ ที่ 16 เดือน เมษายน พ.ศ.2547<br>
+        อายุ: 20 ปี<br>
+        อาชีพ: นักศึกษา มหาวิทยาลัยสงขลานครินทร์ วิทยาเขต สุราษฎร์ธานี<br>
+        อาศัยอยู่: บ้านเลขที่ 636 หมู่ 2 ตำบล กรุงหยัน อำเภอ ทุ่งใหญ่ จังหวัด นครศรีธรรมราช
+    </p>
+</section>
+
+    
+   <!-- Skills -->
+<section class="py-20 bg-gray-200 px-8">
+    <h2 class="text-4xl font-bold text-center">ทักษะของฉัน</h2>
+    <div class="flex flex-wrap justify-center gap-6 mt-6">
+        
+        <!-- Data Science -->
+        <div class="bg-white shadow-lg rounded-lg w-64 overflow-hidden">
+            <img src="/img/DATA.png" alt="Data Science" class="w-full h-32 object-cover">
+            <div class="p-6 text-center">
+                <h3 class="text-xl font-bold">Data Science</h3>
+                <p class="text-gray-600 mt-2">
+                    "Data Science คือสิ่งที่ฉันให้ความสำคัญ ฉันสามารถวิเคราะห์และจัดการข้อมูลเพื่อค้นหาแนวโน้มและสร้างโมเดลที่ช่วยตัดสินใจได้อย่างแม่นยำ พร้อมทั้งคำนึงถึงความถูกต้องของข้อมูลและการนำไปใช้งานจริง ที่สำคัญคือการทำให้ข้อมูลซับซ้อนกลายเป็นสิ่งที่เข้าใจและใช้ประโยชน์ได้ง่าย"
+                </p>
+            </div>
+        </div>
+
+        <!-- Graphic Design -->
+        <div class="bg-white shadow-lg rounded-lg w-64 overflow-hidden">
+            <img src="/img/UXUI.png" alt="Graphic Design" class="w-full h-32 object-cover">
+            <div class="p-6 text-center">
+                <h3 class="text-xl font-bold">Graphic Design</h3>
+                <p class="text-gray-600 mt-2">
+                    "การออกแบบ UX/UI คือสิ่งที่ฉันให้ความสำคัญ ฉันสามารถออกแบบให้การใช้งานง่ายและเข้าใจได้ทันที พร้อมทั้งคำนึงถึงความสวยงามและการทำงานจริง ๆ ของแต่ละฟีเจอร์ ที่สำคัญคือการทำให้ผู้ใช้รู้สึกสะดวกและไม่สับสนเวลาใช้งาน"
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    
+    <!-- Portfolio Section -->
+    <section class="py-20 px-8 text-center">
+        <h2 class="text-4xl font-bold">ผลงานของฉัน</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6">
+    
+            <!-- ผลงาน 1 -->
+            <a href="/Portfolio Section/menu.html" target="_blank" class="h-64 w-full overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <img src="/img/menu.png" class="w-full h-full object-cover" alt="ผลงาน 1">
+            </a>
+    
+            <!-- ผลงาน 2 -->
+            <a href="/Portfolio Section/form.html" target="_blank" class="h-64 w-full overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <img src="/img/Form.png" class="w-full h-full object-cover" alt="ผลงาน 2">
+            </a>
+    
+            <!-- ผลงาน 3 -->
+            <a href="/Portfolio Section/music.html" target="_blank" class="h-64 w-full overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <img src="/img/music.png" class="w-full h-full object-cover" alt="ผลงาน 3">
+            </a>
+    
+            <!-- ผลงาน 4 -->
+            <a href="/Portfolio Section/menu_edit.html" target="_blank" class="h-64 w-full overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <img src="/img/menu_edit.png" class="w-full h-full object-cover" alt="ผลงาน 4">
+            </a>
+    
+        </div>
+    </section>
+
+    
+    <!-- Contact -->
+    <section class="py-20 bg-gray-800 text-white text-center">
+        <h2 class="text-4xl font-bold">ติดต่อฉัน</h2>
+        <p class="mt-4 text-lg">Facebook: Kasided Jame</p>
+        <p class="mt-4 text-lg">Line: 12ebike </p>
+        <p class="mt-4 text-lg">Email: example@gmail.com</p>
+        <p class="mt-4 text-lg">Phone: 0908747279</p>
+    </section>
+    
+</body>
+</html>
